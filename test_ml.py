@@ -9,7 +9,7 @@ def test_train_model_return_type():
     """
     # create simple training data
     X_train = np.random.rand(100, 10)  # 100 samples, 10 features
-    y_train = np.random.randint(0, 2, size=100)  # Binary labels
+    y_train = np.random.randint(0, 2, size = 100)  # Binary labels
 
     # train the model
     model = train_model(X_train, y_train)
@@ -38,7 +38,7 @@ def test_consistent_feature_columns():
     """
     # create simple training data
     X_train = np.random.rand(100, 10)  # 100 samples, 10 features
-    y_train = np.random.randint(0, 2, size=100)  # Binary labels
+    y_train = np.random.randint(0, 2, size =100)  # Binary labels
 
     # create simple test data with the same number of feature columns
     X_test = np.random.rand(20, 10) # 20 samples, 10 features
